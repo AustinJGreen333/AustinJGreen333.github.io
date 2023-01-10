@@ -50,7 +50,7 @@ youtube_username: jekyll
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/About.png
+about_profile_image: images/Aboutme.png
 about_content: | # this will include new lines to allow paragraphs
   Howdy, my name is Austin Green!
 
