@@ -50,7 +50,7 @@ youtube_username: jekyll
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images\AustinEdit-3.jpg
+about_profile_image: images/AustinEdit-3.jpg
 about_content: | # this will include new lines to allow paragraphs
   Howdy, my name is Austin Green!
 
@@ -96,7 +96,8 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
-    
+    content:
+        layout: right
         title: Oregon State University
         sub_title: Undergraduate Teaching Assistant
         caption: Date Range (eg. November 2016 - present)
