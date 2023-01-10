@@ -50,7 +50,7 @@ youtube_username: jekyll
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/AustinEdit-3.jpg
+about_profile_image: images/About.png
 about_content: | # this will include new lines to allow paragraphs
   Howdy, my name is Austin Green!
 
@@ -66,7 +66,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         border:
           weak # Value of `weak` will display a weak border below this item. # Any
           # other value (or no value) means no border will be displayed
@@ -87,22 +87,32 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
+        border: weak
         title: Medline Renewal
         sub_title: Collection Specialist
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+        caption: February 2022 - Present
         description: | # this will include new lines to allow paragraphs
           Description of role
-      - layout: right
+      - layout: left
+        border: weak
+        title: Oregon State University
+        sub_title: Undergraduate Research Assistant
+        caption: June 2021 - December 2021
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+      - layout: left
+        border: weak
         title: Oregon State University
         sub_title: Undergraduate Teaching Assistant
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+        caption: December 2018 - June 2021
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+      - layout: left
+        border: weak
+        title: FormFactor, Inc.
+        sub_title: RF Test Engineering Intern
+        caption: March 2020 - September 2020
         description: | # this will include new lines to allow paragraphs
           Description of role
   - title: Education
