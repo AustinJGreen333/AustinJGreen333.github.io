@@ -97,7 +97,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Description of role
     content:
-        layout: right
+      - layout: right
         title: Oregon State University
         sub_title: Undergraduate Teaching Assistant
         caption: Date Range (eg. November 2016 - present)
