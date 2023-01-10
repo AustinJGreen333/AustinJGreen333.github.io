@@ -52,15 +52,13 @@ youtube_username: jekyll
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/AustinEdit-3.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Howdy, my name is Austin Green!
+  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-I am a soon-to-be graduate with an Honors Bachelor of Science in Electrical and Computer Engineering from Oregon State University. Much of my time as a student, employee, and just regular human, has been spent being involved in just about anything I could be. When it comes to my degree, my primary areas of interest were in Signals & Systems, and Robotics. I thoroughly enjoy the challenge that these areas provided and enjoy the nearly limitless applications they fit into. Thanks to some prior working and project experience, I am specifically interested in the Oceanic and Aviation industries.
-
-Aside from that, I am a self-proclaimed wannabe jack-of-all-trades and am driven by a curiosity of understanding the world in new ways. I love working on a team and am more than comfortable admitting that I don't know everything, while always being willing to learn what it takes for me and my team to be successful.
-
-If you have any questions for me, or just want to chat, feel free to connect with me and I would be happy to talk!
-
-Thanks!
+  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+    - Lists
+    - Tables
+    - <a href="google.com">Links</a>
+    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
