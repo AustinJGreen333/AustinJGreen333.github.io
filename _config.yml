@@ -93,8 +93,10 @@ content:
             url:
         quote: >
           Senior Capstone Project
+          ![alt text](/images/landscape-trees.jpg "Trees")
         description: |
           ![alt text](/images/landscape-trees.jpg "Trees")
+
           My team and I were tasked with creating an independent sensing module to measure significant wave heights, while on deployments inside an Autonomous Underwater Vehicle (<mark>AUV</mark>). We utilized a 9-axis <mark>IMU</mark> to make the necessary acceleration data, and an <mark>STM32</mark> microcontroller to process that data into significant wave heights. Once processed, the data would be sent to the existing on board flight computer over <mark>RS232</mark>, and saved to an internal SD card backup.
   - title: Experience
     layout: list
