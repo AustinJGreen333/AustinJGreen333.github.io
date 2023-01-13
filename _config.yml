@@ -94,7 +94,7 @@ content:
         quote: >
           Senior Capstone Project
         description: |
-          My team and I were tasked with creating an independent sensing module to measure significant wave heights, while on deployments inside an Autonomous Underwater Vehicles. We utilized a 9-axis IMU to make the necessary acceleration data, and an STM32 to process that data into significant wave heights. Once processed, the data would be sent to the existing on board flight computer over RS232, and saved to an internal SD card backup.
+          My team and I were tasked with creating an independent sensing module to measure significant wave heights, while on deployments inside an Autonomous Underwater Vehicle (<mark>AUV</mark>). We utilized a 9-axis <mark>IMU</mark> to make the necessary acceleration data, and an <mark>STM32</mark> microcontroller to process that data into significant wave heights. Once processed, the data would be sent to the existing on board flight computer over <mark>RS232</mark>, and saved to an internal SD card backup.
   - title: Experience
     layout: list
     content:
@@ -112,7 +112,9 @@ content:
         sub_title: Undergraduate Research Assistant
         caption: June 2021 - December 2021
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          After finishing my Capstone project, I began working with the lab that sponsored the project. I continued work on the project in preparation for a research cruise they had coming up that it would be apart of.
+
+          I was offered a spot on another research cruise they had planned, studying ocean mixing in the Gulf of Mexico. My primary role in this cruise was project and technical support, as well as overseeing drifter deployments and operation. During the cruise, I learned a lot about oceanography and how we study the ocean. I got the opportunity to work closely with professors, post-grads, and graduate students in the field, and assisted each them with their projects.
 
       - layout: left
         border: weak
@@ -120,7 +122,7 @@ content:
         sub_title: Undergraduate Teaching Assistant
         caption: December 2018 - June 2021
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          During my time as a TA, I assisted teaching a rotation of 3 introductory electrical engineering classes (ECE 111, ECE 112, and Engr 201). I oversaw lab and recitation sections for the respective courses, and was responsible for helping, assessing, and grading students in the courses. I primarily taught Lab safety, DC circuit analysis, and how to use common electrical engineering lab equipment.
 
       - layout: left
         border: weak
@@ -128,7 +130,11 @@ content:
         sub_title: RF Test Engineering Intern
         caption: March 2020 - September 2020
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          As an intern at FormFactor, I was a part of the RF Test Engineering Group. I was brought onto a project that had myself, and another intern, moving the company's test software from <mark>VBA</mark> to <mark>LabView</mark>. This was my primary project, and involved working with the technicians on the manufacturing line to ensure correct behavior. 
+
+          Aside from that project, I was also tasked with assisting the senior engineers diagnosing probe failures in the Product Development Lab. These tasks introduced me to a lot of RF test equipment, and troubleshooting techniques. I primairly used a VNA to gather probe refelction charactersitics, and then learned how to interpret what the reflections could mean to provide the best solution to fixing the broken probe.
+
+          The last project I was a part of, involved automating another section of the probe testing line. I wrote a C# program to load the correct calibration file on the technicians VNA, after entering the part number.
 
   - title: Education
     layout: list
