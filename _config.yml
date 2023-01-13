@@ -7,10 +7,10 @@ version: 2
 
 # Personal info
 name: Austin J. Green
-title: Your job title
+title: Electrical And Computer Engineer
 email: austinjgreen333@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+#phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
 # website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
@@ -54,7 +54,7 @@ about_profile_image: images/Aboutme.png
 about_content: | # this will include new lines to allow paragraphs
   Howdy, my name is Austin Green!
 
-  I am a soon-to-be graduate with an Honors Bachelor of Science in Electrical and Computer Engineering from Oregon State University. Much of my time as a student, employee, and just regular human, has been spent being involved in just about anything I could be. When it comes to my degree, my primary areas of interest were in Signals & Systems, and Robotics. I thoroughly enjoy the challenge that these areas provided and enjoy the nearly limitless applications they fit into. Thanks to some prior working and project experience, I am specifically interested in the Oceanic and Aviation industries.
+  I am a soon-to-be graduate with an Honors Bachelor of Science in Electrical and Computer Engineering from Oregon State University. After grdauating, I am looking forward to starting a Ph.D. program in Applied Ocean Science at Scripps Institute of Oceanography in Fall 2023.  Much of my time as a student, employee, and just regular human, has been spent being involved in just about anything I could be. When it comes to my degree, my primary areas of interest were in Signals & Systems, and Robotics. I thoroughly enjoy the challenge that these areas provided and enjoy the nearly limitless applications they fit into. Thanks to some prior working and project experience, I am specifically interested in the Oceanic and Aviation industries. 
 
   Aside from that, I am a self-proclaimed wannabe jack-of-all-trades and am driven by a curiosity of understanding the world in new ways. I love working on a team and am more than comfortable admitting that I don't know everything, while always being willing to learn what it takes for me and my team to be successful.
 
@@ -70,32 +70,31 @@ content:
         border:
           weak # Value of `weak` will display a weak border below this item. # Any
           # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-
-      - layout: top-middle
-        border: weak
-        title: Ocean Drifter Kit
-        link:
-        link_text:
+        title: Educational Ocean Drifter Kit
+        link: https://github.com/greenaus/OSU_Ocean_Drifter
+        link_text: Link to Project GitHub Repo
         additional_links:
           - title: Github Repository for project
             icon:
             url:
+        quote: >
+          Senior Honors Thesis
+        description: | # this will include new lines to allow paragraphs
+          For my Senior Thesis, I designed an ocean drifter parts kit, designed to be used in a Honors College class Fall of 2022. The focus of the kit was to introduce students of any major, to the field of oceanography and sensing. The requiremnts for the project were that it be low-budget and easy to use.
+
+      - layout: top-middle
+        border: weak
+        title: Using ocean-going robots, to measure wave conditions
+        link: https://eecs.engineering.oregonstate.edu/project-showcase/projects/?id=wGz7Z1E4AbLm16Rk
+        link_text: Link to the Project Showcase Page
+        additional_links:
+          - title: Github Repository for project
+            icon:
+            url:
+        quote: >
+          Senior Capstone Project
         description: |
-          I made a drifter!
+          My team and I were tasked with creating an independent sensing module to measure significant wave heights, while on deployments inside an Autonomous Underwater Vehicles. We utilized a 9-axis IMU to make the necessary acceleration data, and an STM32 to process that data into significant wave heights. Once processed, the data would be sent to the existing on board flight computer over RS232, and saved to an internal SD card backup.
   - title: Experience
     layout: list
     content:
