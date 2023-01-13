@@ -54,7 +54,7 @@ about_profile_image: images/Aboutme.png
 about_content: | # this will include new lines to allow paragraphs
   Howdy, my name is Austin Green!
 
-  I am a soon-to-be graduate with an Honors Bachelor of Science in Electrical and Computer Engineering from Oregon State University. After grdauating, I am looking forward to starting a Ph.D. program in Applied Ocean Science at Scripps Institute of Oceanography in Fall 2023.  Much of my time as a student, employee, and just regular human, has been spent being involved in just about anything I could be. When it comes to my degree, my primary areas of interest were in Signals & Systems, and Robotics. I thoroughly enjoy the challenge that these areas provided and enjoy the nearly limitless applications they fit into. Thanks to some prior working and project experience, I am specifically interested in the Oceanic and Aviation industries. 
+  I am a soon-to-be graduate with an Honors Bachelor of Science in Electrical and Computer Engineering from Oregon State University. After graduating, I am looking forward to starting a Ph.D. program in Applied Ocean Science at Scripps Institute of Oceanography in Fall 2023.  Much of my time as a student, employee, and just regular human, has been spent being involved in just about anything I could be. When it comes to my degree, my primary areas of interest were in Signals & Systems, and Robotics. I thoroughly enjoy the challenge that these areas provided and enjoy the nearly limitless applications they fit into. Thanks to some prior working and project experience, I am specifically interested in the Oceanic and Aviation industries. 
 
   Aside from that, I am a self-proclaimed wannabe jack-of-all-trades and am driven by a curiosity of understanding the world in new ways. I love working on a team and am more than comfortable admitting that I don't know everything, while always being willing to learn what it takes for me and my team to be successful.
 
@@ -132,7 +132,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           As an intern at FormFactor, I was a part of the RF Test Engineering Group. I was brought onto a project that had myself, and another intern, moving the company's test software from <mark>VBA</mark> to <mark>LabView</mark>. This was my primary project, and involved working with the technicians on the manufacturing line to ensure correct behavior. 
 
-          Aside from that project, I was also tasked with assisting the senior engineers diagnosing probe failures in the Product Development Lab. These tasks introduced me to a lot of RF test equipment, and troubleshooting techniques. I primairly used a VNA to gather probe refelction charactersitics, and then learned how to interpret what the reflections could mean to provide the best solution to fixing the broken probe.
+          Aside from that project, I was also tasked with assisting the senior engineers diagnosing probe failures in the Product Development Lab. These tasks introduced me to a lot of RF test equipment, and troubleshooting techniques. I primairly used a VNA to gather probe reflection charactersitics, and then learned how to interpret what the reflections could mean to provide the best solution to fixing the broken probe.
 
           The last project I was a part of, involved automating another section of the probe testing line. I wrote a C# program to load the correct calibration file on the technicians VNA, after entering the part number.
 
@@ -140,22 +140,24 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Oregon State University
+        sub_title: Honors BSc Electrical and Computer Engineering
+        caption: 2017 - 2022
         quote: >
-          Short institution or course description (optional)
+          Focused on Robotics and Signals & Systems
         description: | # this will include new lines to allow paragraphs
           Description of qualification
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      When I am not busy with work or school, I enjoy learning other skills and knowledge that are typically outside of my focus. Over the last couple of years, I have taught myself cooking, 3D modeling, and have self-studied oceanography, medical biology, and aviation. I have finished the ground school portion of a private pilot's license, and hope to begine flight lessons soon.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      Outside of the office or lab, I have grown to enjoy a lot of outdoor sports. I fell in love with rock climbing, long boarding, and snowboarding during my time at OSU. Aside from that, I really enjoy camping and hiking when I can get out, and before you ask, yes I love long walks on the beach.
+
+      From a creative outlet standpoint, I am an avid tabletop gamer and have made many characters as well as been a Dungeon Master for 2 DND campaigns. I am currently also in the process of getting into videography. I plan to start documenting projects and hopefully posting them online here soon for others to be a part of.
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
