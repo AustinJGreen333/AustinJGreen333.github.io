@@ -29,7 +29,7 @@ github_username: AustinJGreen333
 linkedin_username: AustinGreen333
 #xing_username: jekyll
 #pinterest_username: jekyll
-youtube_username: jekyll
+#youtube_username: jekyll
 #orcid_username: 0000-0000-0000-0000
 #googlescholar_username: D847cGsAAAAJ
 
@@ -95,6 +95,7 @@ content:
           Senior Capstone Project
 
         description: | #![alt text](/images/landscape-trees.jpg "Trees")
+
 
 
 
